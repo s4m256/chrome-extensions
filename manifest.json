@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Math Shield",
+  "version": "1.0",
+  "description": "Protects math expressions when translating webpages",
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
