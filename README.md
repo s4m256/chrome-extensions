@@ -57,6 +57,17 @@ MathShield fixes this by:
 
 ---
 
+## AI Usage
+
+Artificial intelligence tools were used during development for:
+- Debugging and troubleshooting parts of the extension
+- Brainstorming implementation ideas
+- Generating the project logo
+
+All core functionality, design decisions, and final implementation were reviewed and integrated manually.
+
+---
+
 ## Status
 
 Core functionality is complete.  
